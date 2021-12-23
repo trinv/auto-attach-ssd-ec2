@@ -24,6 +24,7 @@ Save & Exit
 # chmod 755 /usr/local/sbin/auto-attach-ssd-ec2.sh
 
 ```
+Template file: [auto-attach-ssd-ec2.sh](https://github.com/trinv/auto-attach-ssd-ec2/blob/main/auto-attach-ssd-ec2.sh)
 ## Run to test
 ```
 # /usr/local/sbin/auto-attach-ssd-ec2.sh
@@ -51,6 +52,7 @@ Writing inode tables: done
 ```
 # nano /etc/systemd/system/auto-attach-ssd.service
 ```
+Template file: [auto-attach-ssd.service](https://github.com/trinv/auto-attach-ssd-ec2/blob/main/auto-attach-ssd.service)
 ```
 [Unit]
 After=network.target
