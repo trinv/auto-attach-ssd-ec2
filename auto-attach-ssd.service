@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/local/sbin/auto-attach-ssd-ec2.sh
+
+[Install]
+WantedBy=default.target
