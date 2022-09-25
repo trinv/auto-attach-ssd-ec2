@@ -65,14 +65,14 @@ WantedBy=default.target
 ```
 Save & Exit
 
-## Reload systemd & Enable auto-attach-ssd.servive to start with Boot OS:
+## Reload systemd & Enable auto-attach-ssd.service to start with Boot OS:
 ```
 # systemctl daemon-reload
-# systemctl enable auto-attach-ssd.servive
+# systemctl enable auto-attach-ssd.service
 ```
 ```
 Output:
-Created symlink /etc/systemd/system/default.target.wants/auto-attach-ssd.servive → /etc/systemd/system/auto-attach-ssd.servive.
+Created symlink /etc/systemd/system/default.target.wants/auto-attach-ssd.service → /etc/systemd/system/auto-attach-ssd.service.
 ```
 
 ## ```# reboot```
